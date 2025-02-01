@@ -4,12 +4,13 @@ I use the following docker container acme.sh Docker and I wanted a way to secure
 
 This script will do the following:
 
-Generate a random username (e.g., 'tempadmin_XXXXXXXXXX') and store it in a variable
-Generate a random password for the temporary admin user and store it in a variable
-Create a user account with the random username & password on the Synology NAS
-Add the temporary user to the 'administrators' group
-Pass the username and password variables into the acme docker container and run the Synology hook script
-Delete the temporary admin user
+1.Generate a random username (e.g., 'tempadmin_XXXXXXXXXX') and store it in a variable
+2.Generate a random password for the temporary admin user and store it in a variable
+3.Create a user account with the random username & password on the Synology NAS
+4.Add the temporary user to the 'administrators' group
+5.Pass the username and password variables into the acme docker container and run the Synology hook script
+6.Delete the temporary admin user
+
 Set Up:
 
 If you use MFA on all admin accounts then change it to "specific users and groups" and select your static admin accounts
