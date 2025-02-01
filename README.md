@@ -17,7 +17,7 @@ Set Up:
 
 If you use MFA on all admin accounts then change it to "specific users and groups" and select your static admin accounts
 
-Create a scheduled task and run it as root, enter the script below, don't forget to modify these (joe@bloggs.com $ example.com) for your environment!
+Create a scheduled task and run it as root and paste the script, don't forget to modify these (joe@bloggs.com $ example.com) for your environment!
 
 Set the script to run every 65 day's or so (after the cert as been auto renewed)
 
