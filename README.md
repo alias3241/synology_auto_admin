@@ -2,7 +2,7 @@
 
 
 I use the following docker container [acme.sh Docker ](https://github.com/acmesh-official/acme.sh/wiki/Run-acme.sh-in-docker) 
-and I wanted a way to securely run the hook cmd without setting a static admin account so i created the below, hopefully this helps some of you.
+and I wanted a way to securely run the hook cmd without setting a static admin account so i created a script, hopefully this helps some of you.
 
 This script will do the following:
 
